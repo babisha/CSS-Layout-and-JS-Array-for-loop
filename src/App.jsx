@@ -9,13 +9,13 @@ function App() {
 
   let listingArray = []
 
-  for(let i= 0; i < 4; i++) {
-    listingArray[i] = <li>{names[i]}</li>
+  for(let i= 0; i < brandNames.length; i++) {
+    listingArray[i] = <li>{brandNames[i]}</li>
   }
   console.log(listingArray)
   return (
     <>
-      <div>
+      <div className="nav">
         <ul>
           <li>
             <button>HOME</button>
@@ -27,12 +27,13 @@ function App() {
             <button>SHOP</button>
           </li>
         </ul>
-        <div className = "leftBox"></div>
-        <div className ="Box">{listingArray}</div>
-        <div>
+        </div>
+        
+        
+        <div className= "box">
+        <div className ="rightBox">{listingArray}</div>
           <img src="https://almullaconsulting.com/wp-content/uploads/2017/10/Brand.jpg" />
         </div>
-      </div>
         
       
     </>

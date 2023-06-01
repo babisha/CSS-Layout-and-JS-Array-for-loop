@@ -1,3 +1,52 @@
 * {
-  background-color: lemonchiffon;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:rgb(73, 73, 52);
 }
+
+.nav ul {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  border: none;  
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  justify-content: space-around;
+  border: none;
+  
+}
+
+button {
+  color: rgb(29, 28, 28);
+  border-radius: 40px;
+  padding: 20px;
+  border: none;
+
+ }
+
+ 
+ .rightBox {
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+ }
+
+.box {
+  display: inline;
+  align-items: center;
+  text-decoration: none;
+  }
+  
+ 
+ img {
+  display: flex;
+  align-items: end;
+
+ }
