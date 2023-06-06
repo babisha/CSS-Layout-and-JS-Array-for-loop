@@ -1,25 +1,20 @@
-* {
+body {
   margin: 0;
   box-sizing: border-box;
   background-color:rgb(73, 73, 52);
-}
-
-.nav ul {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-  border: none;  
-}
-
-li {
-  display: inline;
-  text-decoration: none;
-  justify-content: space-around;
-  border: none;
+  overflow: hidden;
   
 }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 5vh;
+  border: none;  
+  color: rgb(73, 73, 52);;
+}
+
 
 button {
   color: rgb(29, 28, 28);
@@ -35,6 +30,7 @@ button {
   justify-content: space-around;
   font-size: x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: none;
   
  }
 
@@ -48,5 +44,6 @@ button {
  img {
   display: flex;
   align-items: end;
+  overflow: hidden;
 
  }

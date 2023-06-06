@@ -16,18 +16,10 @@ function App() {
   return (
     <>
       <div className="nav">
-        <ul>
-          <li>
-            <button>HOME</button>
-          </li>
-          <li>
-            <button>BLOG</button>
-          </li>
-          <li>
-            <button>SHOP</button>
-          </li>
-        </ul>
-        </div>
+        <button>HOME</button>
+        <button>BLOG</button>
+        <button>SHOP</button>
+       </div>
         
         
         <div className= "box">
